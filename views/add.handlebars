@@ -19,10 +19,14 @@
 <body>
 	<div class="container">
 	<h1>My HCI Friends</h1>
+	<a href="/">
+	<h4>Home</h4>
+	</a>
+	<p> new friend have been added.</p>
 	{{#each friends}}
 	 <div class="friend">
         <img src="{{imageURL}}" class="img-responsive">
-        <a href="#">
+        <a id="clickName" href="#">
         <h2>{{name}}</h2>
         </a>
         <p>{{description}}</p>
